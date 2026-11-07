@@ -1,0 +1,1417 @@
+{
+  "liquids": [
+    {
+      "id": "toyz",
+      "name": "TOYZ",
+      "meta": "30 мл  ·  20 мг  ·  salt",
+      "source": "https://toyzvape.ru/toyz",
+      "flavors": [
+        {
+          "name": "Пьяная вишня",
+          "meta": "30 мл  ·  20 мг  ·  salt"
+        },
+        {
+          "name": "Гуава и киви",
+          "meta": "30 мл  ·  20 мг  ·  salt"
+        },
+        {
+          "name": "Клубничный джем",
+          "meta": "30 мл  ·  20 мг  ·  salt"
+        },
+        {
+          "name": "Черничный энергетик",
+          "meta": "30 мл  ·  20 мг  ·  salt"
+        },
+        {
+          "name": "Вишнёвая кола",
+          "meta": "30 мл  ·  20 мг  ·  salt"
+        },
+        {
+          "name": "Манго со льдом",
+          "meta": "30 мл  ·  20 мг  ·  salt"
+        },
+        {
+          "name": "Малина и ежевика",
+          "meta": "30 мл  ·  20 мг  ·  salt"
+        },
+        {
+          "name": "Дыня со льдом",
+          "meta": "30 мл  ·  20 мг  ·  salt"
+        },
+        {
+          "name": "Апельсин со льдом",
+          "meta": "30 мл  ·  20 мг  ·  salt"
+        },
+        {
+          "name": "Киви со льдом",
+          "meta": "30 мл  ·  20 мг  ·  salt"
+        },
+        {
+          "name": "Ананас со льдом",
+          "meta": "30 мл  ·  20 мг  ·  salt"
+        },
+        {
+          "name": "Мятный арбуз",
+          "meta": "30 мл  ·  20 мг  ·  salt"
+        },
+        {
+          "name": "Арбуз с лаймом",
+          "meta": "30 мл  ·  20 мг  ·  salt"
+        },
+        {
+          "name": "Клубника и киви",
+          "meta": "30 мл  ·  20 мг  ·  salt"
+        },
+        {
+          "name": "Мохито",
+          "meta": "30 мл  ·  20 мг  ·  salt"
+        },
+        {
+          "name": "Апельсин, лимон и мята",
+          "meta": "30 мл  ·  20 мг  ·  salt"
+        },
+        {
+          "name": "Ананас, дыня и манго",
+          "meta": "30 мл  ·  20 мг  ·  salt"
+        },
+        {
+          "name": "Ягодный морс",
+          "meta": "30 мл  ·  20 мг  ·  salt"
+        },
+        {
+          "name": "Лесные ягоды с мятой",
+          "meta": "30 мл  ·  20 мг  ·  salt"
+        },
+        {
+          "name": "Алоэ сплэш",
+          "meta": "30 мл  ·  20 мг  ·  salt"
+        },
+        {
+          "name": "Вишня",
+          "meta": "30 мл  ·  20 мг  ·  salt"
+        },
+        {
+          "name": "Вишня со льдом",
+          "meta": "30 мл  ·  20 мг  ·  salt"
+        },
+        {
+          "name": "Baikal",
+          "meta": "30 мл  ·  20 мг  ·  salt"
+        },
+        {
+          "name": "Клубника со льдом",
+          "meta": "30 мл  ·  20 мг  ·  salt"
+        },
+        {
+          "name": "Lemon Waffles",
+          "meta": "30 мл  ·  20 мг  ·  salt"
+        },
+        {
+          "name": "Cola Vanilla",
+          "meta": "30 мл  ·  20 мг  ·  salt"
+        },
+        {
+          "name": "Mango Peach",
+          "meta": "30 мл  ·  20 мг  ·  salt"
+        },
+        {
+          "name": "Orange Blueberry",
+          "meta": "30 мл  ·  20 мг  ·  salt"
+        },
+        {
+          "name": "Creamy Mango",
+          "meta": "30 мл  ·  20 мг  ·  salt"
+        },
+        {
+          "name": "Tropical Mix",
+          "meta": "30 мл  ·  20 мг  ·  salt"
+        },
+        {
+          "name": "Crazy Raspberry",
+          "meta": "30 мл  ·  20 мг  ·  salt"
+        },
+        {
+          "name": "Blueberry",
+          "meta": "30 мл  ·  20 мг  ·  salt"
+        }
+      ]
+    },
+    {
+      "id": "kosyak",
+      "name": "KOS YAK hard",
+      "meta": "30 мл  ·  70 мг",
+      "source": "https://bigshoper.net/shop/zhidkosti/pod-onki/kosyak-hard-30-ml-70-mg-original",
+      "flavors": [
+        {
+          "name": "Агент К",
+          "meta": "клубника киви  ·  30 мл  ·  70 мг"
+        },
+        {
+          "name": "Арбузняк из империи Х",
+          "meta": "арбуз лайм  ·  30 мл  ·  70 мг"
+        },
+        {
+          "name": "Беспредел",
+          "meta": "малина и мятная жвачка  ·  30 мл  ·  70 мг"
+        },
+        {
+          "name": "Всё и сразу",
+          "meta": "мульти фрукт  ·  30 мл  ·  70 мг"
+        },
+        {
+          "name": "Дикий сбор",
+          "meta": "лесные ягоды  ·  30 мл  ·  70 мг"
+        },
+        {
+          "name": "Кислородный концерт",
+          "meta": "смородина клубника лайм  ·  30 мл  ·  70 мг"
+        },
+        {
+          "name": "Цитрусовой заряд",
+          "meta": "апельсин лимон мята  ·  30 мл  ·  70 мг"
+        },
+        {
+          "name": "Лови волну",
+          "meta": "манго персик  ·  30 мл  ·  70 мг"
+        },
+        {
+          "name": "Мятный нокаут",
+          "meta": "мятные пастилки  ·  30 мл  ·  70 мг"
+        },
+        {
+          "name": "Ночной дрифт",
+          "meta": "вишня кола  ·  30 мл  ·  70 мг"
+        },
+        {
+          "name": "Ночной побег",
+          "meta": "малина ежевик  ·  30 мл  ·  70 мг"
+        },
+        {
+          "name": "Тёмная вишня",
+          "meta": "вишня  ·  30 мл  ·  70 мг"
+        },
+        {
+          "name": "Тропический босс",
+          "meta": "ананас дыня манго  ·  30 мл  ·  70 мг"
+        },
+        {
+          "name": "Холодный расчёт",
+          "meta": "зелёный виноград  ·  30 мл  ·  70 мг"
+        },
+        {
+          "name": "Эврика",
+          "meta": "голубика  ·  30 мл  ·  70 мг"
+        }
+      ]
+    },
+    {
+      "id": "narcoz",
+      "name": "NARCOZ+",
+      "meta": "30 мл  ·  PG/VG 50/50  ·  Strong",
+      "source": "https://chillvape.ru/catalog/zhidkosti-dlya-veypa/narcoz-strong/",
+      "flavors": [
+        {
+          "name": "Малиновый джем",
+          "meta": "30 мл  ·  PG/VG 50/50  ·  Strong"
+        },
+        {
+          "name": "Тост с малиновым джемом",
+          "meta": "30 мл  ·  PG/VG 50/50  ·  Strong"
+        },
+        {
+          "name": "Черничный джем",
+          "meta": "30 мл  ·  PG/VG 50/50  ·  Strong"
+        },
+        {
+          "name": "7 up",
+          "meta": "30 мл  ·  PG/VG 50/50  ·  Strong"
+        },
+        {
+          "name": "Love iz",
+          "meta": "30 мл  ·  PG/VG 50/50  ·  Strong"
+        },
+        {
+          "name": "Ананас хвоя",
+          "meta": "30 мл  ·  PG/VG 50/50  ·  Strong"
+        },
+        {
+          "name": "Арбуз вишня",
+          "meta": "30 мл  ·  PG/VG 50/50  ·  Strong"
+        },
+        {
+          "name": "Гранат мультифрукт кислый",
+          "meta": "30 мл  ·  PG/VG 50/50  ·  Strong"
+        },
+        {
+          "name": "Грейпфрутовый смузи",
+          "meta": "30 мл  ·  PG/VG 50/50  ·  Strong"
+        },
+        {
+          "name": "Груша барбарис",
+          "meta": "30 мл  ·  PG/VG 50/50  ·  Strong"
+        },
+        {
+          "name": "Ежевика малина",
+          "meta": "30 мл  ·  PG/VG 50/50  ·  Strong"
+        },
+        {
+          "name": "Жвачка с голубой малиной",
+          "meta": "30 мл  ·  PG/VG 50/50  ·  Strong"
+        },
+        {
+          "name": "Кислое яблоко малина",
+          "meta": "30 мл  ·  PG/VG 50/50  ·  Strong"
+        },
+        {
+          "name": "Кислые мишки",
+          "meta": "30 мл  ·  PG/VG 50/50  ·  Strong"
+        },
+        {
+          "name": "Клюква малина",
+          "meta": "30 мл  ·  PG/VG 50/50  ·  Strong"
+        },
+        {
+          "name": "Леденцы с витамином",
+          "meta": "30 мл  ·  PG/VG 50/50  ·  Strong"
+        },
+        {
+          "name": "Лесные ягоды",
+          "meta": "30 мл  ·  PG/VG 50/50  ·  Strong"
+        },
+        {
+          "name": "Малина мята",
+          "meta": "30 мл  ·  PG/VG 50/50  ·  Strong"
+        },
+        {
+          "name": "Малина виноград",
+          "meta": "30 мл  ·  PG/VG 50/50  ·  Strong"
+        },
+        {
+          "name": "Манго чёрная смородина",
+          "meta": "30 мл  ·  PG/VG 50/50  ·  Strong"
+        },
+        {
+          "name": "Медовая дыня",
+          "meta": "30 мл  ·  PG/VG 50/50  ·  Strong"
+        },
+        {
+          "name": "Миринда",
+          "meta": "30 мл  ·  PG/VG 50/50  ·  Strong"
+        },
+        {
+          "name": "Мятная жвачка",
+          "meta": "30 мл  ·  PG/VG 50/50  ·  Strong"
+        },
+        {
+          "name": "Нектарин",
+          "meta": "30 мл  ·  PG/VG 50/50  ·  Strong"
+        },
+        {
+          "name": "Тропические фрукты",
+          "meta": "30 мл  ·  PG/VG 50/50  ·  Strong"
+        },
+        {
+          "name": "Энергетик",
+          "meta": "30 мл  ·  PG/VG 50/50  ·  Strong"
+        },
+        {
+          "name": "Ментос",
+          "meta": "30 мл  ·  PG/VG 50/50  ·  Strong"
+        },
+        {
+          "name": "Тархун",
+          "meta": "30 мл  ·  PG/VG 50/50  ·  Strong"
+        },
+        {
+          "name": "Фрутелла",
+          "meta": "30 мл  ·  PG/VG 50/50  ·  Strong"
+        },
+        {
+          "name": "Скитлс",
+          "meta": "30 мл  ·  PG/VG 50/50  ·  Strong"
+        }
+      ]
+    },
+    {
+      "id": "chapman",
+      "name": "CHAPMAN",
+      "meta": "2 ultra  ·  30 мл",
+      "source": "https://bigshoper.net/shop/zhidkosti/chappman/chappman-2-ultra-30-ml-original",
+      "flavors": [
+        {
+          "name": "Зелёный табак",
+          "meta": "2 ultra  ·  30 мл"
+        },
+        {
+          "name": "Арбузный табак",
+          "meta": "2 ultra  ·  30 мл"
+        },
+        {
+          "name": "Ванильный табак",
+          "meta": "2 ultra  ·  30 мл"
+        },
+        {
+          "name": "Виноградный табак",
+          "meta": "2 ultra  ·  30 мл"
+        },
+        {
+          "name": "Вишневый табак",
+          "meta": "2 ultra  ·  30 мл"
+        },
+        {
+          "name": "Карамельный табак",
+          "meta": "2 ultra  ·  30 мл"
+        },
+        {
+          "name": "Клубничный табак",
+          "meta": "2 ultra  ·  30 мл"
+        },
+        {
+          "name": "Кокосовый табак",
+          "meta": "2 ultra  ·  30 мл"
+        },
+        {
+          "name": "Кола табак",
+          "meta": "2 ultra  ·  30 мл"
+        },
+        {
+          "name": "Кофейный табак",
+          "meta": "2 ultra  ·  30 мл"
+        },
+        {
+          "name": "Ликерный табак",
+          "meta": "2 ultra  ·  30 мл"
+        },
+        {
+          "name": "Манговый табак",
+          "meta": "2 ultra  ·  30 мл"
+        },
+        {
+          "name": "Мохито табак",
+          "meta": "2 ultra  ·  30 мл"
+        },
+        {
+          "name": "Мультифруктовый табак",
+          "meta": "2 ultra  ·  30 мл"
+        },
+        {
+          "name": "Мятный табак",
+          "meta": "2 ultra  ·  30 мл"
+        },
+        {
+          "name": "Табак с ментолом ягодами",
+          "meta": "2 ultra  ·  30 мл"
+        },
+        {
+          "name": "Табак с нотками ежевики",
+          "meta": "2 ultra  ·  30 мл"
+        },
+        {
+          "name": "Табачная дыня",
+          "meta": "2 ultra  ·  30 мл"
+        },
+        {
+          "name": "Цитрусовый табак",
+          "meta": "2 ultra  ·  30 мл"
+        },
+        {
+          "name": "Шоколадный табак",
+          "meta": "2 ultra  ·  30 мл"
+        },
+        {
+          "name": "Яблочный табак",
+          "meta": "2 ultra  ·  30 мл"
+        }
+      ]
+    },
+    {
+      "id": "monashka",
+      "name": "Монашка HARD++",
+      "meta": "30 мл",
+      "source": "https://www.churchill-tabak.ru/catalog/hard_2/18817/",
+      "flavors": [
+        {
+          "name": "Клубничный лимонад",
+          "meta": "30 мл"
+        },
+        {
+          "name": "Апельсин с кислой малиной",
+          "meta": "30 мл"
+        },
+        {
+          "name": "Дикая малина с черникой",
+          "meta": "30 мл"
+        },
+        {
+          "name": "Red Bull с лесными ягодами",
+          "meta": "30 мл"
+        },
+        {
+          "name": "Маракуйя манго",
+          "meta": "30 мл"
+        }
+      ],
+      "incomplete": true
+    },
+    {
+      "id": "monstervapor",
+      "name": "MonsterVapor Extreme",
+      "meta": "крепость указана на упаковке",
+      "source": "stock+public listings",
+      "flavors": [
+        {
+          "name": "Грейпфрут с манго",
+          "meta": "крепость указана на упаковке"
+        }
+      ],
+      "incomplete": true
+    },
+    {
+      "id": "skala",
+      "name": "SKALA Atlas Cooler",
+      "meta": "2 Ultra",
+      "source": "https://www.brusko-world.com/ru/products-pages/e-liquids/e-liquids-skala",
+      "flavors": [
+        {
+          "name": "Арлас",
+          "meta": "Черника со льдом  ·  2 Ultra"
+        },
+        {
+          "name": "Эльбрус",
+          "meta": "Клюква со льдом  ·  2 Ultra"
+        },
+        {
+          "name": "Казбек",
+          "meta": "Виноград со льдом  ·  2 Ultra"
+        }
+      ],
+      "incomplete": true
+    }
+  ],
+  "devices": [
+    {
+      "id": "pafos",
+      "name": "PAFOS 9-Z38",
+      "meta": "до 20 000 затяжек  ·  12 / 24 Вт",
+      "source": "https://pafos.pro/collection-20000",
+      "flavors": [
+        {
+          "name": "Ежевика содовая",
+          "meta": "до 20 000 затяжек",
+          "photo": "img/flavors/pafos-ежевика-содовая.jpg"
+        },
+        {
+          "name": "Черная смородина Содовая",
+          "meta": "до 20 000 затяжек",
+          "photo": "img/flavors/pafos-черная-смородина-содовая.jpg"
+        },
+        {
+          "name": "Голубика Облепиха Клюква",
+          "meta": "до 20 000 затяжек",
+          "photo": "img/flavors/pafos-голубика-облепиха-клюква.jpg"
+        },
+        {
+          "name": "Голубика Содовая",
+          "meta": "до 20 000 затяжек",
+          "photo": "img/flavors/pafos-голубика-содовая.jpg"
+        },
+        {
+          "name": "Карамбола",
+          "meta": "до 20 000 затяжек",
+          "photo": "img/flavors/pafos-карамбола.jpg"
+        },
+        {
+          "name": "Габба Киви Алоэ",
+          "meta": "до 20 000 затяжек",
+          "photo": "img/flavors/pafos-габба-киви-алоэ.jpg"
+        },
+        {
+          "name": "Айс Бейби",
+          "meta": "до 20 000 затяжек",
+          "photo": "img/flavors/pafos-айс-бейби.jpg"
+        },
+        {
+          "name": "Ананас Личи",
+          "meta": "до 20 000 затяжек",
+          "photo": "img/flavors/pafos-ананас-личи.jpg"
+        },
+        {
+          "name": "Гранат Лайм Содовая",
+          "meta": "до 20 000 затяжек",
+          "photo": "img/flavors/pafos-гранат-лайм-содовая.jpg"
+        },
+        {
+          "name": "Сицилийский апельсин Клубника",
+          "meta": "до 20 000 затяжек",
+          "photo": "img/flavors/pafos-сицилийский-апельсин-клубника.jpg"
+        },
+        {
+          "name": "Ягодный скитлс",
+          "meta": "до 20 000 затяжек",
+          "photo": "img/flavors/pafos-ягодный-скитлс.jpg"
+        },
+        {
+          "name": "Клубника Киви Лемон",
+          "meta": "до 20 000 затяжек",
+          "photo": "img/flavors/pafos-клубника-киви-лемон.jpg"
+        },
+        {
+          "name": "Кактус Лимон",
+          "meta": "до 20 000 затяжек",
+          "photo": "img/flavors/pafos-кактус-лимон.jpg"
+        },
+        {
+          "name": "Тропический",
+          "meta": "до 20 000 затяжек",
+          "photo": "img/flavors/pafos-тропический.jpg"
+        },
+        {
+          "name": "Грейпфрут",
+          "meta": "до 20 000 затяжек",
+          "photo": "img/flavors/pafos-грейпфрут.jpg"
+        },
+        {
+          "name": "Экзотический",
+          "meta": "до 20 000 затяжек",
+          "photo": "img/flavors/pafos-экзотический.jpg"
+        },
+        {
+          "name": "Яблочный леденец",
+          "meta": "до 20 000 затяжек",
+          "photo": "img/flavors/pafos-яблочный-леденец.jpg"
+        },
+        {
+          "name": "Клюква Содовая",
+          "meta": "до 20 000 затяжек",
+          "photo": "img/flavors/pafos-клюква-содовая.jpg"
+        },
+        {
+          "name": "Вишня Лимон",
+          "meta": "до 20 000 затяжек",
+          "photo": "img/flavors/pafos-вишня-лимон.jpg"
+        },
+        {
+          "name": "Черника Малина Лимон",
+          "meta": "до 20 000 затяжек",
+          "photo": "img/flavors/pafos-черника-малина-лимон.jpg"
+        },
+        {
+          "name": "Клубника Арбуз",
+          "meta": "до 20 000 затяжек",
+          "photo": "img/flavors/pafos-клубника-арбуз.jpg"
+        },
+        {
+          "name": "Мармеладные мишки",
+          "meta": "до 20 000 затяжек",
+          "photo": "img/flavors/pafos-мармеладные-мишки.jpg"
+        },
+        {
+          "name": "Клюква Виноград",
+          "meta": "до 20 000 затяжек",
+          "photo": "img/flavors/pafos-клюква-виноград.jpg"
+        },
+        {
+          "name": "Кокосовое мороженое",
+          "meta": "до 20 000 затяжек",
+          "photo": "img/flavors/pafos-кокосовое-мороженое.jpg"
+        },
+        {
+          "name": "Сладкая мята",
+          "meta": "до 20 000 затяжек",
+          "photo": "img/flavors/pafos-сладкая-мята.jpg"
+        },
+        {
+          "name": "Лимончелло",
+          "meta": "до 20 000 затяжек",
+          "photo": "img/flavors/pafos-лимончелло.jpg"
+        },
+        {
+          "name": "Кофеин",
+          "meta": "до 20 000 затяжек",
+          "photo": "img/flavors/pafos-кофеин.jpg"
+        },
+        {
+          "name": "Двойное яблоко",
+          "meta": "до 20 000 затяжек",
+          "photo": "img/flavors/pafos-двойное-яблоко.jpg"
+        },
+        {
+          "name": "Дикие ягоды",
+          "meta": "до 20 000 затяжек",
+          "photo": "img/flavors/pafos-дикие-ягоды.jpg"
+        },
+        {
+          "name": "Ягодный йогурт",
+          "meta": "до 20 000 затяжек",
+          "photo": "img/flavors/pafos-ягодный-йогурт.jpg"
+        },
+        {
+          "name": "Мята Ментол Эвкалипт",
+          "meta": "до 20 000 затяжек",
+          "photo": "img/flavors/pafos-мята-ментол-эвкалипт.jpg"
+        },
+        {
+          "name": "Киви Лимон",
+          "meta": "до 20 000 затяжек",
+          "photo": "img/flavors/pafos-киви-лимон.jpg"
+        },
+        {
+          "name": "Мультифрукт",
+          "meta": "до 20 000 затяжек",
+          "photo": "img/flavors/pafos-мультифрукт.jpg"
+        },
+        {
+          "name": "Вишня Кола",
+          "meta": "до 20 000 затяжек",
+          "photo": "img/flavors/pafos-вишня-кола.jpg"
+        },
+        {
+          "name": "Мятный чай",
+          "meta": "до 20 000 затяжек",
+          "photo": "img/flavors/pafos-мятный-чай.jpg"
+        }
+      ],
+      "photo": "img/brands/pafos.jpg"
+    },
+    {
+      "id": "bm16000",
+      "name": "Lost Mary BM16000",
+      "meta": "16 000 soft  ·  9 000 turbo",
+      "source": "https://www.lostmaryofficial.co.uk/product/lost-mary-bm16000/",
+      "flavors": [
+        {
+          "name": "Чай ягодный микс"
+        },
+        {
+          "name": "Banana Duo Ice"
+        },
+        {
+          "name": "Cherry Cola"
+        },
+        {
+          "name": "Lemon Mint"
+        },
+        {
+          "name": "Spearmint"
+        },
+        {
+          "name": "Blue Razz Ice"
+        },
+        {
+          "name": "Cherry Lime"
+        },
+        {
+          "name": "Strawberry Kiwi"
+        },
+        {
+          "name": "Grape Cranberry"
+        },
+        {
+          "name": "Sour Apple"
+        },
+        {
+          "name": "Kiwi Passion Fruit Guava"
+        },
+        {
+          "name": "Strawberry Mango"
+        },
+        {
+          "name": "Blueberry Ice"
+        },
+        {
+          "name": "Mad Blue"
+        },
+        {
+          "name": "Pineapple Duo Ice"
+        },
+        {
+          "name": "Peach Ice"
+        },
+        {
+          "name": "Strawberry Ice"
+        },
+        {
+          "name": "Watermelon"
+        },
+        {
+          "name": "Cranberry Soda"
+        },
+        {
+          "name": "Pineapple Mango"
+        },
+        {
+          "name": "Peach Mango Watermelon"
+        },
+        {
+          "name": "Strawberry Lemonade"
+        },
+        {
+          "name": "Watermelon Lemon"
+        },
+        {
+          "name": "Berry Passion Fruit Grape"
+        },
+        {
+          "name": "Blueberry Raspberry Peach"
+        },
+        {
+          "name": "Blueberry Raspberry Pomegranate"
+        },
+        {
+          "name": "Cherry Peach Lemonade"
+        },
+        {
+          "name": "Banana Raspberry Ice"
+        },
+        {
+          "name": "Triple Berry Duo Ice"
+        },
+        {
+          "name": "Grape"
+        },
+        {
+          "name": "Strawberry Pina Colada"
+        },
+        {
+          "name": "Cranberry Kiwi"
+        },
+        {
+          "name": "Miami Mint"
+        },
+        {
+          "name": "Clear"
+        },
+        {
+          "name": "Cherry Banana Duo Ice"
+        },
+        {
+          "name": "Black Mint"
+        },
+        {
+          "name": "Mary Dream"
+        },
+        {
+          "name": "Strawberry Sundae"
+        },
+        {
+          "name": "Rose Sour Plum Mint"
+        },
+        {
+          "name": "Sakura Berry Peach Ice"
+        }
+      ],
+      "photo": "img/brands/bm16000.jpg"
+    },
+    {
+      "id": "dura9000",
+      "name": "Puffmi Dura 9000",
+      "meta": "9 000 затяжек  ·  650 мАч  ·  Type-C",
+      "source": "https://www.puffmivape.com/product/dura-9000/",
+      "flavors": [
+        {
+          "name": "Strawberry Kiwi Ice",
+          "meta": "9 000 затяжек",
+          "photo": "img/flavors/dura-strawberry-kiwi-ice.jpg"
+        },
+        {
+          "name": "Aloe Grape Ice",
+          "meta": "9 000 затяжек",
+          "photo": "img/flavors/dura-aloe-grape-ice.jpg"
+        },
+        {
+          "name": "Apple Pear Ice",
+          "meta": "9 000 затяжек",
+          "photo": "img/flavors/dura-apple-pear-ice.jpg"
+        },
+        {
+          "name": "Banana Blackcurrant Ice",
+          "meta": "9 000 затяжек",
+          "photo": "img/flavors/dura-banana-blackcurrant-ice.jpg"
+        },
+        {
+          "name": "Blackberry Cherry Ice",
+          "meta": "9 000 затяжек",
+          "photo": "img/flavors/dura-blackberry-cherry-ice.jpg"
+        },
+        {
+          "name": "Lemon Tea Ice",
+          "meta": "9 000 затяжек",
+          "photo": "img/flavors/dura-lemon-tea-ice.jpg"
+        },
+        {
+          "name": "Orange Fanta Ice",
+          "meta": "9 000 затяжек",
+          "photo": "img/flavors/dura-orange-fanta-ice.jpg"
+        },
+        {
+          "name": "Mix Peaches Ice",
+          "meta": "9 000 затяжек",
+          "photo": "img/flavors/dura-mix-peaches-ice.jpg"
+        },
+        {
+          "name": "Mint Lemonade Ice",
+          "meta": "9 000 затяжек",
+          "photo": "img/flavors/dura-mint-lemonade-ice.jpg"
+        },
+        {
+          "name": "Passionfruit Watermelon Ice",
+          "meta": "9 000 затяжек",
+          "photo": "img/flavors/dura-passionfruit-watermelon-ice.jpg"
+        },
+        {
+          "name": "Sour Pineapple Ice",
+          "meta": "9 000 затяжек",
+          "photo": "img/flavors/dura-sour-pineapple-ice.jpg"
+        },
+        {
+          "name": "Sour Grape Grapefruit",
+          "meta": "9 000 затяжек",
+          "photo": "img/flavors/dura-sour-grape-grapefruit.jpg"
+        },
+        {
+          "name": "Sour Strawberry Grapefruit",
+          "meta": "9 000 затяжек",
+          "photo": "img/flavors/dura-sour-strawberry-grapefruit.jpg"
+        },
+        {
+          "name": "Sour Pomegranate Cherry",
+          "meta": "9 000 затяжек",
+          "photo": "img/flavors/dura-sour-pomegranate-cherry.jpg"
+        },
+        {
+          "name": "Sour Apple Cranberry",
+          "meta": "9 000 затяжек",
+          "photo": "img/flavors/dura-sour-apple-cranberry.jpg"
+        },
+        {
+          "name": "Sour Blackberry Cranberry",
+          "meta": "9 000 затяжек",
+          "photo": "img/flavors/dura-fsour-blackberry-cranberry.jpg"
+        },
+        {
+          "name": "Sour Strawberry Cranberry",
+          "meta": "9 000 затяжек",
+          "photo": "img/flavors/dura-sour-strawberry-cranberry.jpg"
+        },
+        {
+          "name": "Sour Kiwi Passionfruit",
+          "meta": "9 000 затяжек",
+          "photo": "img/flavors/dura-sour-kiwi-passionfruit.jpg"
+        },
+        {
+          "name": "Sour Mango Melon",
+          "meta": "9 000 затяжек",
+          "photo": "img/flavors/dura-sour-mango-melon.jpg"
+        },
+        {
+          "name": "Sour Brite Crawler Gummy",
+          "meta": "9 000 затяжек",
+          "photo": "img/flavors/dura-sour-brite-crawler-gummy.jpg"
+        },
+        {
+          "name": "Mentos Mint",
+          "meta": "9 000 затяжек",
+          "photo": "img/flavors/dura-mentos-mint.jpg"
+        },
+        {
+          "name": "Passion Fruit Green Tea",
+          "meta": "9 000 затяжек",
+          "photo": "img/flavors/dura-passion-fruit-green-tea.jpg"
+        },
+        {
+          "name": "Mojito Mint",
+          "meta": "9 000 затяжек",
+          "photo": "img/flavors/dura-mojito-mint.jpg"
+        },
+        {
+          "name": "Cranberry Grape",
+          "meta": "9 000 затяжек",
+          "photo": "img/flavors/dura-cranberry-grape.jpg"
+        },
+        {
+          "name": "Raspberry Grapefruit",
+          "meta": "9 000 затяжек",
+          "photo": "img/flavors/dura-raspberry-grapefruit.jpg"
+        },
+        {
+          "name": "Flashy Lime Mint Energy",
+          "meta": "9 000 затяжек",
+          "photo": "img/flavors/dura-flashy-lime-mint-energy.jpg"
+        },
+        {
+          "name": "Sour Cherry Berry Lemonade",
+          "meta": "9 000 затяжек",
+          "photo": "img/flavors/dura-sour-cherry-berry-lemonade.jpg"
+        },
+        {
+          "name": "Lemon Lime",
+          "meta": "9 000 затяжек",
+          "photo": "img/flavors/dura-lemon-lime.jpg"
+        },
+        {
+          "name": "Sour Apple Ice",
+          "meta": "9 000 затяжек",
+          "photo": "img/flavors/dura-sour-apple-ice.jpg"
+        },
+        {
+          "name": "Cherry Lemon",
+          "meta": "9 000 затяжек",
+          "photo": "img/flavors/dura-cherry-lemon.jpg"
+        },
+        {
+          "name": "Straw Banana Ice Cream",
+          "meta": "9 000 затяжек",
+          "photo": "img/flavors/dura-straw-banana-ice-cream.jpg"
+        },
+        {
+          "name": "Watermelon Ice",
+          "meta": "9 000 затяжек",
+          "photo": "img/flavors/dura-watermelon-ice.jpg"
+        },
+        {
+          "name": "Cool Mint",
+          "meta": "9 000 затяжек",
+          "photo": "img/flavors/dura-cool-mint.jpg"
+        },
+        {
+          "name": "Blueberry Ice",
+          "meta": "9 000 затяжек",
+          "photo": "img/flavors/dura-blueberry-ice.jpg"
+        },
+        {
+          "name": "Double Apple",
+          "meta": "9 000 затяжек",
+          "photo": "img/flavors/dura-double-apple.jpg"
+        },
+        {
+          "name": "Watermelon Bubblegum",
+          "meta": "9 000 затяжек",
+          "photo": "img/flavors/dura-watermelon-bubblegum.jpg"
+        },
+        {
+          "name": "Peach Ice",
+          "meta": "9 000 затяжек",
+          "photo": "img/flavors/dura-peach-ice.jpg"
+        },
+        {
+          "name": "Blueberry Raspberry",
+          "meta": "9 000 затяжек",
+          "photo": "img/flavors/dura-blueberry-raspberry.jpg"
+        },
+        {
+          "name": "Quad Berry Ice",
+          "meta": "9 000 затяжек",
+          "photo": "img/flavors/dura-quad-berry-ice.jpg"
+        },
+        {
+          "name": "Strawberry Mango Ice",
+          "meta": "9 000 затяжек",
+          "photo": "img/flavors/dura-strawberry-mango-ice.jpg"
+        },
+        {
+          "name": "Tobacco",
+          "meta": "9 000 затяжек",
+          "photo": "img/flavors/dura-tobacco.jpg"
+        },
+        {
+          "name": "Energy Boom",
+          "meta": "9 000 затяжек",
+          "photo": "img/flavors/dura-energy-boom.jpg"
+        },
+        {
+          "name": "Ice Cola",
+          "meta": "9 000 затяжек",
+          "photo": "img/flavors/dura-ice-cola.jpg"
+        },
+        {
+          "name": "Banana Ice",
+          "meta": "9 000 затяжек",
+          "photo": "img/flavors/dura-banana-ice.jpg"
+        },
+        {
+          "name": "Strawberry Watermelon",
+          "meta": "9 000 затяжек",
+          "photo": "img/flavors/dura-strawberry-watermelon.jpg"
+        },
+        {
+          "name": "Ruby Red Grapefruit",
+          "meta": "9 000 затяжек",
+          "photo": "img/flavors/dura-ruby-red-grapefruit.jpg"
+        },
+        {
+          "name": "Pineapple Lemonade",
+          "meta": "9 000 затяжек",
+          "photo": "img/flavors/dura-pineapple-lemonade.jpg"
+        },
+        {
+          "name": "Mango Orange Watermelon",
+          "meta": "9 000 затяжек",
+          "photo": "img/flavors/dura-mango-orange-watermelon.jpg"
+        },
+        {
+          "name": "Rainbow Drop",
+          "meta": "9 000 затяжек",
+          "photo": "img/flavors/dura-rainbow-drop.jpg"
+        },
+        {
+          "name": "Grape Honeydew Melon",
+          "meta": "9 000 затяжек",
+          "photo": "img/flavors/dura-grape-honeydew-melon.jpg"
+        },
+        {
+          "name": "Triple Mango",
+          "meta": "9 000 затяжек",
+          "photo": "img/flavors/dura-triple-mango.jpg"
+        }
+      ],
+      "photo": "img/brands/dura9000.jpg"
+    },
+    {
+      "id": "mo30000",
+      "name": "Lost Mary MO30000",
+      "meta": "перезаряжаемое устройство",
+      "source": "https://tabak-market.ru/category/elektronnye-sigarety/lost-mary/lost-mary-mo-30-000/",
+      "flavors": [
+        {
+          "name": "Вишня лайм",
+          "meta": "перезаряжаемое устройство"
+        }
+      ],
+      "incomplete": true
+    },
+    {
+      "id": "waka",
+      "name": "WAKA soPro 20000",
+      "meta": "до 20 000 затяжек",
+      "source": "https://vaporae.com/product/waka-sopro-20000-puffs-50mg/",
+      "flavors": [
+        {
+          "name": "Blueberry Cranberry Cherry",
+          "meta": "до 20 000 затяжек"
+        },
+        {
+          "name": "Blue Raspberry Mint",
+          "meta": "до 20 000 затяжек"
+        },
+        {
+          "name": "Fresh Mint",
+          "meta": "до 20 000 затяжек"
+        },
+        {
+          "name": "Vimbull Ice",
+          "meta": "до 20 000 затяжек"
+        },
+        {
+          "name": "Watermelon Chill",
+          "meta": "до 20 000 затяжек"
+        },
+        {
+          "name": "Blueberry Raspberry",
+          "meta": "до 20 000 затяжек"
+        },
+        {
+          "name": "Cranberry Grape",
+          "meta": "до 20 000 затяжек"
+        },
+        {
+          "name": "Sakura Grape",
+          "meta": "до 20 000 затяжек"
+        },
+        {
+          "name": "Strawberry Kiwi",
+          "meta": "до 20 000 затяжек"
+        },
+        {
+          "name": "Strawberry Watermelon",
+          "meta": "до 20 000 затяжек"
+        },
+        {
+          "name": "Blue Razz Blackberry",
+          "meta": "до 20 000 затяжек"
+        },
+        {
+          "name": "Cappuccino",
+          "meta": "до 20 000 затяжек"
+        },
+        {
+          "name": "Dark Cherry",
+          "meta": "до 20 000 затяжек"
+        },
+        {
+          "name": "Icy Mineral Water",
+          "meta": "до 20 000 затяжек"
+        },
+        {
+          "name": "Kiwi Passion Guava",
+          "meta": "до 20 000 затяжек"
+        },
+        {
+          "name": "Raspberry Dark",
+          "meta": "до 20 000 затяжек"
+        },
+        {
+          "name": "Strawberry Grape",
+          "meta": "до 20 000 затяжек"
+        },
+        {
+          "name": "Strawberry Raspberry",
+          "meta": "до 20 000 затяжек"
+        },
+        {
+          "name": "Triple Berry",
+          "meta": "до 20 000 затяжек"
+        },
+        {
+          "name": "Watermelon Cherry",
+          "meta": "до 20 000 затяжек"
+        }
+      ]
+    },
+    {
+      "id": "xice",
+      "name": "Lost Mary X-Ice Pod",
+      "meta": "20 000  ·  регулируемый холодок",
+      "source": "user stock + public listings",
+      "flavors": [
+        {
+          "name": "Гранат ананас",
+          "meta": "20 000  ·  регулируемый холодок"
+        }
+      ],
+      "incomplete": true
+    },
+    {
+      "id": "vozol",
+      "name": "VOZOL Gear Power",
+      "meta": "eco 20 000  ·  power 12 000",
+      "source": "https://www.eewholesalevape.com/products/VOZOL-Gear-Power-20000-Puffs-20k-Flavors-Rechargeable-Disposable-Vape",
+      "flavors": [
+        {
+          "name": "Манго ананас грейпфрут"
+        },
+        {
+          "name": "Blue Mojito"
+        },
+        {
+          "name": "Blue Razz Ice"
+        },
+        {
+          "name": "Blueberry Storm"
+        },
+        {
+          "name": "Caribbean Juice"
+        },
+        {
+          "name": "Cherry Berry Ice"
+        },
+        {
+          "name": "Cherry Lemonade"
+        },
+        {
+          "name": "Cool Mint"
+        },
+        {
+          "name": "Double Apple Ice"
+        },
+        {
+          "name": "Dragon Fruit"
+        },
+        {
+          "name": "Banana Cherry"
+        },
+        {
+          "name": "Grape Ice"
+        },
+        {
+          "name": "Lemon Lime"
+        },
+        {
+          "name": "Lemon Mint"
+        },
+        {
+          "name": "Mango Ice"
+        },
+        {
+          "name": "Mango Pineapple"
+        },
+        {
+          "name": "Grapefruit"
+        },
+        {
+          "name": "Mexican Mango Ice"
+        },
+        {
+          "name": "Mixed Berries"
+        },
+        {
+          "name": "Peach Ice"
+        },
+        {
+          "name": "Raspberry Watermelon"
+        },
+        {
+          "name": "Strawberry Kiwi"
+        },
+        {
+          "name": "Strawberry Mango"
+        },
+        {
+          "name": "Strawberry Watermelon"
+        },
+        {
+          "name": "Tobacco"
+        },
+        {
+          "name": "Watermelon Ice"
+        }
+      ]
+    },
+    {
+      "id": "xland",
+      "name": "XLAND 15000",
+      "meta": "Powered by WAKA  ·  до 15 000 затяжек",
+      "source": "user stock",
+      "flavors": [
+        {
+          "name": "Зелёный виноград",
+          "meta": "Powered by WAKA  ·  до 15 000 затяжек"
+        }
+      ],
+      "incomplete": true
+    },
+    {
+      "id": "geekbar911",
+      "name": "Geek Bar 911",
+      "meta": "на упаковке: обычный режим",
+      "source": "user stock",
+      "flavors": [
+        {
+          "name": "Манго персик арбуз"
+        }
+      ],
+      "incomplete": true
+    },
+    {
+      "id": "blush23000",
+      "name": "Puffmi Blush 23000",
+      "meta": "до 23 000 затяжек",
+      "source": "https://www.puffmivape.com/product/blush-23000/",
+      "flavors": [
+        {
+          "name": "Cranberry Soda",
+          "meta": "до 23 000 затяжек",
+          "photo": "img/flavors/blush-cranberry-soda.jpg"
+        },
+        {
+          "name": "Red Grapefruit",
+          "meta": "до 23 000 затяжек",
+          "photo": "img/flavors/blush-red-grapefruit.jpg"
+        },
+        {
+          "name": "Blackberry Soda",
+          "meta": "до 23 000 затяжек",
+          "photo": "img/flavors/blush-blackberry-soda.jpg"
+        },
+        {
+          "name": "Berry Gummy Bears",
+          "meta": "до 23 000 затяжек",
+          "photo": "img/flavors/blush-berry-gummy-bears.jpg"
+        },
+        {
+          "name": "Coconut Ice Cream",
+          "meta": "до 23 000 затяжек",
+          "photo": "img/flavors/blush-coconut-ice-cream.jpg"
+        },
+        {
+          "name": "Berry Yogurt",
+          "meta": "до 23 000 затяжек",
+          "photo": "img/flavors/blush-berry-yogurt.jpg"
+        },
+        {
+          "name": "Cranberry Grape",
+          "meta": "до 23 000 затяжек",
+          "photo": "img/flavors/blush-cranberry-grape.jpg"
+        },
+        {
+          "name": "Mixfruit",
+          "meta": "до 23 000 затяжек",
+          "photo": "img/flavors/blush-mixfruit.jpg"
+        },
+        {
+          "name": "Double Apple",
+          "meta": "до 23 000 затяжек",
+          "photo": "img/flavors/blush-double-apple.jpg"
+        },
+        {
+          "name": "Strawberry Watermelon",
+          "meta": "до 23 000 затяжек",
+          "photo": "img/flavors/blush-strawberry-watermelon.jpg"
+        },
+        {
+          "name": "Cherry Lemon",
+          "meta": "до 23 000 затяжек",
+          "photo": "img/flavors/blush-cherry-lemon.jpg"
+        },
+        {
+          "name": "Cherry Cola",
+          "meta": "до 23 000 затяжек",
+          "photo": "img/flavors/blush-cherry-cola.jpg"
+        },
+        {
+          "name": "Sweet Mint",
+          "meta": "до 23 000 затяжек",
+          "photo": "img/flavors/blush-sweet-mint.jpg"
+        },
+        {
+          "name": "Apple Orange",
+          "meta": "до 23 000 затяжек",
+          "photo": "img/flavors/blush-apple-orange.jpg"
+        },
+        {
+          "name": "Mint Tea",
+          "meta": "до 23 000 затяжек",
+          "photo": "img/flavors/blush-mint-tea.jpg"
+        },
+        {
+          "name": "Mango Peach Pineapple",
+          "meta": "до 23 000 затяжек",
+          "photo": "img/flavors/blush-mango-peach-pineapple.jpg"
+        },
+        {
+          "name": "Lemon Kiwi",
+          "meta": "до 23 000 затяжек",
+          "photo": "img/flavors/blush-lemon-kiwi.jpg"
+        },
+        {
+          "name": "Banana Coconut",
+          "meta": "до 23 000 затяжек",
+          "photo": "img/flavors/blush-banana-coconut.jpg"
+        },
+        {
+          "name": "Blueberry Raspberry Lemon",
+          "meta": "до 23 000 затяжек",
+          "photo": "img/flavors/blush-blueberry-raspberry-lemon.jpg"
+        },
+        {
+          "name": "Wild Berry",
+          "meta": "до 23 000 затяжек",
+          "photo": "img/flavors/blush-wild-berry.jpg"
+        }
+      ],
+      "photo": "img/brands/blush23000.jpg"
+    },
+    {
+      "id": "os25000",
+      "name": "Lost Mary OS25000",
+      "meta": "до 25 000 затяжек  ·  20 мг/мл",
+      "source": "user stock + public listings",
+      "flavors": [
+        {
+          "name": "Ледяной виноград",
+          "meta": "до 25 000 затяжек  ·  20 мг/мл"
+        }
+      ],
+      "incomplete": true
+    }
+  ]
+}
