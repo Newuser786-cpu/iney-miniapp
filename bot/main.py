@@ -6,7 +6,7 @@ from urllib.parse import urlparse
 
 from aiogram import Bot, Dispatcher
 from aiogram.exceptions import TelegramBadRequest, TelegramForbiddenError
-from aiogram.filters import CommandStart
+from aiogram.filters import Command, CommandStart
 from aiogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, WebAppInfo
 
 logging.basicConfig(level=logging.INFO)
@@ -48,12 +48,35 @@ async def start(message: Message) -> None:
     )
 
 
+def consultant_answer(question: str) -> str:
+    """Bounded informational support; no product or purchase recommendations."""
+    q = question.casefold().strip()
+    if any(word in q for word in ("привет", "здравствуй", "добрый день", "здравствуйте")):
+        return "Здравствуйте! Я консультант ИНЕЙ. Помогу с навигацией, устройствами и безопасностью. Напишите ваш вопрос."
+    if any(word in q for word in ("приложен", "мини апп", "mini app", "каталог", "открыть", "кнопк")):
+        return "Откройте /start и нажмите «Открыть информационный каталог». Если страница не загружается, обновите Telegram и попробуйте снова."
+    if any(word in q for word in ("заряд", "аккумулятор", "батаре", "кабель")):
+        return "Используйте только совместимое зарядное устройство согласно инструкции производителя. Не заряжайте повреждённый, перегревающийся или вздутый аккумулятор. При повреждении прекратите использование."
+    if any(word in q for word in ("греет", "нагрев", "горяч", "дымит", "течёт", "протека", "сломал", "не работает", "не включ")):
+        return "При перегреве, протечке или неисправности прекратите использование устройства. Не разбирайте аккумулятор и не пытайтесь ремонтировать его самостоятельно. Обратитесь в авторизованный сервис."
+    if any(word in q for word in ("никотин", "вред", "здоров", "беремен", "зависим", "возраст", "18")):
+        return "Никотин вызывает зависимость и несёт риски для здоровья. Несовершеннолетним и беременным никотиновые продукты противопоказаны. По медицинским вопросам обратитесь к врачу."
+    if any(word in q for word in ("рекоменд", "посовет", "выбрат", "купить", "заказ", "цен", "достав")):
+        return "Я могу объяснить технические характеристики и меры безопасности, но не подбираю и не рекомендую никотиновые товары для покупки. Уточните технический вопрос."
+    return ("Я консультант по техническим и информационным вопросам. "
+            "Могу помочь с Mini App, зарядкой, неисправностями и безопасностью. "
+            "Уточните, пожалуйста, что именно не работает или что хотите узнать.")
+
+
+async def consultant(message: Message) -> None:
+    if not message.text:
+        await replace_reply(message, "Напишите вопрос текстом — я отвечу по техническим и информационным темам.")
+        return
+    await replace_reply(message, consultant_answer(message.text))
+
+
 async def help_message(message: Message) -> None:
-    await replace_reply(
-        message,
-        "Для открытия информационного каталога отправьте /start. "
-        "По вопросам безопасности и эксплуатации устройства опишите ваш вопрос.",
-    )
+    await replace_reply(message, "Консультант ИНЕЙ: задайте вопрос текстом. Для открытия Mini App отправьте /start.")
 
 
 async def main() -> None:
@@ -67,7 +90,8 @@ async def main() -> None:
     bot = Bot(token=token)
     dp = Dispatcher()
     dp.message.register(start, CommandStart())
-    dp.message.register(help_message)
+    dp.message.register(help_message, Command("help"))
+    dp.message.register(consultant)
     try:
         await bot.delete_webhook(drop_pending_updates=False)
         me = await bot.get_me()
