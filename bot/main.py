@@ -23,13 +23,14 @@ async def replace_reply(message: Message, text: str, reply_markup=None) -> None:
     lock = chat_locks.setdefault(chat_id, asyncio.Lock())
     async with lock:
         previous = last_reply.get(chat_id)
+        sent = await message.answer(text, reply_markup=reply_markup)
+        last_reply[chat_id] = sent.message_id
+        log.info("Reply delivered chat=%s message_id=%s", chat_id, sent.message_id)
         if previous is not None:
             try:
                 await message.bot.delete_message(chat_id=chat_id, message_id=previous)
             except (TelegramBadRequest, TelegramForbiddenError) as exc:
-                log.info("Cannot delete previous bot message in chat %s: %s", chat_id, exc)
-        sent = await message.answer(text, reply_markup=reply_markup)
-        last_reply[chat_id] = sent.message_id
+                log.warning("Cannot delete previous reply in chat %s: %s", chat_id, exc)
 
 
 async def start(message: Message) -> None:
