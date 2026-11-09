@@ -204,30 +204,66 @@
     </div>
   </section>
 
-  <section id="consultant-panel" class="hidden" aria-hidden="true" style="position:fixed;inset:0;z-index:9999;background:#070b14;color:#e8eef6;padding:calc(22px + env(safe-area-inset-top)) 22px 30px;overflow:auto;">
-    <button type="button" id="consultant-close" style="background:transparent;border:1px solid #65758a;border-radius:10px;padding:10px 16px;color:#e8eef6;">← Назад</button>
-    <h2 style="margin-top:30px;font-size:26px;">Консультант ИНЕЙ</h2>
-    <p>Помощь по работе приложения, эксплуатации и безопасности устройств.</p>
-    <p>Нажмите кнопку ниже, чтобы закрыть Mini App и вернуться в чат бота. Затем напишите ваш вопрос.</p>
-    <button type="button" id="consultant-chat-open" style="display:block;width:100%;background:#b7c7d6;color:#070b14;text-align:center;padding:16px;border:0;border-radius:12px;margin:24px 0;font-weight:700;font-size:16px;">Вернуться в чат с консультантом</button>
-    <p style="font-size:13px;color:#aab6c6;">Если Telegram не переключается автоматически, закройте Mini App и откройте чат с ботом @Electroni_segaret_bot.</p>
+  <section id="consultant-panel" class="hidden" aria-hidden="true" style="position:fixed;inset:0;z-index:9999;background:#070b14;color:#e8eef6;padding:calc(16px + env(safe-area-inset-top)) 16px calc(16px + env(safe-area-inset-bottom));display:flex;flex-direction:column;height:100dvh;min-height:0;">
+    <header style="display:flex;align-items:center;gap:14px;margin-bottom:12px;">
+      <button type="button" id="consultant-close" style="background:transparent;border:1px solid #65758a;border-radius:10px;padding:10px 14px;color:#e8eef6;">← Назад</button>
+      <strong style="font-size:19px;">Консультант ИНЕЙ</strong>
+    </header>
+    <p style="font-size:12px;color:#9aa9bd;margin:0 0 12px;">Информационный помощник по приложению и безопасной эксплуатации. Ответы автоматические, не от человека.</p>
+    <div id="consultant-messages" role="log" aria-live="polite" style="flex:1;min-height:0;overflow-y:auto;display:flex;flex-direction:column;gap:10px;padding:10px 2px 16px;"></div>
+    <form id="consultant-form" style="display:flex;gap:8px;align-items:center;padding:8px 0;">
+      <input id="consultant-input" aria-label="Ваш вопрос" autocomplete="off" maxlength="1000" placeholder="Напишите вопрос..." style="flex:1;min-width:0;background:#1b2636;color:#fff;border:1px solid #617085;border-radius:12px;padding:14px;font-size:16px;" required />
+      <button type="submit" style="border:0;background:#b7c7d6;color:#070b14;border-radius:12px;padding:14px;font-size:16px;font-weight:700;">➤</button>
+    </form>
   </section>
   <script>
-    document.getElementById("consultant-chat-open").addEventListener("click", function () {
-      const telegram = window.Telegram && window.Telegram.WebApp;
-      if (telegram && typeof telegram.close === "function") {
-        telegram.close();
-      } else {
-        window.location.href = "https://t.me/Electroni_segaret_bot?start=consultant";
-      }
-    });
-    document.getElementById("consultant-close").addEventListener("click", function () {
+    (function () {
       const panel = document.getElementById("consultant-panel");
-      panel.classList.add("hidden");
-      panel.setAttribute("aria-hidden", "true");
-      const launch = document.getElementById("consultant-launch");
-      if (launch) launch.style.display = "block";
-    });
+      const messages = document.getElementById("consultant-messages");
+      const input = document.getElementById("consultant-input");
+      let turn = 0;
+      function bubble(text, fromUser) {
+        const node = document.createElement("div");
+        node.textContent = text;
+        node.style.cssText = "white-space:pre-wrap;overflow-wrap:anywhere;max-width:88%;align-self:" + (fromUser ? "flex-end" : "flex-start") + ";background:" + (fromUser ? "#315a80" : "#1a2738") + ";padding:12px 14px;border-radius:14px;line-height:1.5;font-size:15px";
+        messages.appendChild(node);
+        messages.scrollTop = messages.scrollHeight;
+      }
+      function answer(question) {
+        const q = question.toLocaleLowerCase("ru-RU").replace(/ё/g,"е");
+        if (/привет|здравств|добрый|hello/.test(q)) return "Здравствуйте! Опишите вопрос: работа Mini App, зарядка, неисправность или безопасность.";
+        if (/не откры|не загру|белый экран|ошибк|завис|не работа|приложен|mini.?app|каталог|кнопк/.test(q)) return "Если Mini App не загружается: обновите Telegram, закройте приложение полностью и откройте его заново через /start. Если проблема сохраняется, напишите, на каком экране она возникает и что именно показано.";
+        if (/заряд|батаре|аккумулятор|кабел|usb/.test(q)) return "Проверьте совместимость кабеля и зарядного устройства с инструкцией производителя. Не заряжайте повреждённый, вздутый или перегревающийся аккумулятор. Уточните модель и симптом, чтобы разобрать техническую проблему.";
+        if (/перегрев|горяч|нагрев|дым|горит|вздул/.test(q)) return "Прекратите использование и зарядку, отключите устройство от питания, если это безопасно. Не вскрывайте аккумулятор. При дыме или возгорании отойдите и обратитесь в экстренные службы.";
+        if (/протек|течет|жидкост|намок/.test(q)) return "Не заряжайте устройство при попадании жидкости внутрь. Прекратите использование и обратитесь в сервис; не разбирайте аккумулятор самостоятельно.";
+        if (/не включ|сломал|ремонт|не тян|не реагир/.test(q)) return "Опишите модель и индикаторы устройства. При повреждении, запахе гари или нагреве не пытайтесь включать его повторно; безопаснее обратиться в авторизованный сервис.";
+        if (/никотин|здоров|вред|зависим|беремен|возраст|несовершеннолет/.test(q)) return "Никотин вызывает зависимость и несёт риски для здоровья. Несовершеннолетним никотиновые изделия запрещены. По вопросам здоровья лучше обратиться к медицинскому специалисту.";
+        if (/куп|заказ|достав|цен|скид|посовет|рекоменд|выбр|какой лучше/.test(q)) return "Я отвечаю на технические вопросы и вопросы безопасности, но не подбираю никотиновые изделия для покупки. Могу помочь разобраться в характеристиках устройства.";
+        if (/спасибо|благодар/.test(q)) return "Пожалуйста! Если появится технический вопрос, напишите его здесь.";
+        const variants = [
+          "Уточните, пожалуйста, название устройства и что именно происходит. Я помогу с технической диагностикой и безопасностью.",
+          "Чтобы ответить точнее, опишите проблему: что вы ожидали увидеть, что получилось и появилось ли сообщение об ошибке.",
+          "Я пока не распознал тему вопроса. Могу объяснить работу Mini App, зарядку, неполадки или меры безопасности. Опишите симптомы подробнее."
+        ];
+        return variants[(turn - 1) % variants.length];
+      }
+      bubble("Здравствуйте! Я информационный консультант ИНЕЙ. Задайте вопрос прямо здесь — переходить в чат Telegram не нужно.", false);
+      document.getElementById("consultant-form").addEventListener("submit", function (event) {
+        event.preventDefault();
+        const question = input.value.trim();
+        if (!question) return;
+        input.value = "";
+        bubble(question, true);
+        turn++;
+        bubble(answer(question), false);
+      });
+      document.getElementById("consultant-close").addEventListener("click", function () {
+        panel.classList.add("hidden");
+        panel.setAttribute("aria-hidden", "true");
+        const launch = document.getElementById("consultant-launch");
+        if (launch) launch.style.display = "block";
+      });
+    })();
   </script>
   <script>
     const tg = window.Telegram && window.Telegram.WebApp;
