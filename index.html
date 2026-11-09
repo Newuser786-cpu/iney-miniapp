@@ -217,6 +217,8 @@
       const panel = document.getElementById("consultant-panel");
       panel.classList.add("hidden");
       panel.setAttribute("aria-hidden", "true");
+      const launch = document.getElementById("consultant-launch");
+      if (launch) launch.style.display = "block";
     });
   </script>
   <script>
@@ -243,12 +245,22 @@
     }
 
     function showConsultant() {
-      if (!tg || !tg.MainButton) return;
-      tg.MainButton.setText("Написать консультанту");
-      tg.MainButton.show();
-      tg.MainButton.onClick(function () {
-        openConsultant();
-      });
+      // Use a real DOM button instead of Telegram's MainButton, whose callbacks
+      // can be unreliable inside an iOS Telegram WebView.
+      if (tg && tg.MainButton) {
+        try { tg.MainButton.hide(); } catch (e) {}
+      }
+      let button = document.getElementById("consultant-launch");
+      if (!button) {
+        button = document.createElement("button");
+        button.id = "consultant-launch";
+        button.type = "button";
+        button.textContent = "Написать консультанту";
+        button.style.cssText = "position:fixed;bottom:calc(18px + env(safe-area-inset-bottom));left:5%;width:90%;z-index:1000;background:#2376b9;color:white;border:0;border-radius:16px;padding:17px;font:600 16px -apple-system,BlinkMacSystemFont,sans-serif;box-shadow:0 4px 20px #0008";
+        button.addEventListener("click", openConsultant);
+        document.body.appendChild(button);
+      }
+      button.style.display = "block";
     }
 
     function openConsultant(e) {
@@ -259,6 +271,8 @@
       if (panel) {
         panel.classList.remove("hidden");
         panel.setAttribute("aria-hidden", "false");
+        const launch = document.getElementById("consultant-launch");
+        if (launch) launch.style.display = "none";
       }
     }
     document.querySelectorAll("a.consult").forEach(function (a) {
