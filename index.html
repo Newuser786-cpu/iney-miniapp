@@ -208,11 +208,19 @@
     <button type="button" id="consultant-close" style="background:transparent;border:1px solid #65758a;border-radius:10px;padding:10px 16px;color:#e8eef6;">← Назад</button>
     <h2 style="margin-top:30px;font-size:26px;">Консультант ИНЕЙ</h2>
     <p>Помощь по работе приложения, эксплуатации и безопасности устройств.</p>
-    <p>Чтобы задать вопрос, откройте диалог с ботом в Telegram и отправьте сообщение.</p>
-    <a href="https://t.me/Electroni_segaret_bot?start=consultant" target="_blank" rel="noopener noreferrer" style="display:block;background:#b7c7d6;color:#070b14;text-align:center;padding:16px;border-radius:12px;margin:24px 0;font-weight:700;">Открыть чат с консультантом</a>
+    <p>Нажмите кнопку ниже, чтобы закрыть Mini App и вернуться в чат бота. Затем напишите ваш вопрос.</p>
+    <button type="button" id="consultant-chat-open" style="display:block;width:100%;background:#b7c7d6;color:#070b14;text-align:center;padding:16px;border:0;border-radius:12px;margin:24px 0;font-weight:700;font-size:16px;">Вернуться в чат с консультантом</button>
     <p style="font-size:13px;color:#aab6c6;">Если Telegram не переключается автоматически, закройте Mini App и откройте чат с ботом @Electroni_segaret_bot.</p>
   </section>
   <script>
+    document.getElementById("consultant-chat-open").addEventListener("click", function () {
+      const telegram = window.Telegram && window.Telegram.WebApp;
+      if (telegram && typeof telegram.close === "function") {
+        telegram.close();
+      } else {
+        window.location.href = "https://t.me/Electroni_segaret_bot?start=consultant";
+      }
+    });
     document.getElementById("consultant-close").addEventListener("click", function () {
       const panel = document.getElementById("consultant-panel");
       panel.classList.add("hidden");
